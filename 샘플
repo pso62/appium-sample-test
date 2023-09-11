@@ -1,0 +1,47 @@
+name = "철수"
+score = 290
+average = 290/3
+
+print(f"{name}의 총점은 {score}, 평균은 {average}입니다.")
+
+btc_symbol = "BTC/KRW"
+btc_price = 20000000
+
+doge_symbol = "DOGE/KRW"
+doge_price = 200
+
+print(f"암호화폐: {btc_symbol: >10} 현재가: {btc_price: >10,}")
+print(f"암호화폐: {doge_symbol: >10} 현재가: {doge_price: >10,}")
+
+soo = []
+
+soo.append("1등")
+soo.append("2등")
+soo.append("3등")
+soo.insert(1, "4등")
+del soo[1]
+
+soo1 = [1, 2, 3]
+soo2 = [4, 5, 6]
+soo1.extend(soo2)
+
+최대 = max(soo1)
+최소 = min(soo1)
+
+
+price = [100, 101, 99, 98]
+price1 = sorted(price)
+price2 = sorted(price1, reverse=True)
+price.sort()
+
+soo3 = soo1 + soo2
+
+종가 = [59600, 60900, 60700, 61900, 62100]
+평균 = sum(종가) / len(종가)
+
+휘발유 = [1463, 1483, 1498, 1517, 1530]
+
+휘발류맥스 = max(휘발유)
+휘발류최소 = min(휘발유)
+
+print(휘발류맥스, 휘발류최소)
